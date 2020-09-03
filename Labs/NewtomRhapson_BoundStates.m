@@ -4,7 +4,7 @@ v=10;
 
 % alpha=p and beta=q and E=x
 p=sqrt(x)*5.12174/a;
-q=(sqrt(v-x)*5.12174/a);
+q=sqrt(v-x)*5.12174/a;
 
 f1 = @(x) sqrt(x)*5.12174/a*tan(sqrt(x)*5.12174/a*a)-(sqrt(v-x)*5.12174/a);
 f2 = @(x) sqrt(x)*5.12174/a*cot(sqrt(x)*5.12174/a*a)-(sqrt(v-x)*5.12174/a);
