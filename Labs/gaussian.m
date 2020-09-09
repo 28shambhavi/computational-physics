@@ -6,6 +6,6 @@ for i=n
     b=rand(i,1);
     tic
     x=a\b; % finding x using guassian function
-    time=[time,toc]; storing toc into time array
+    time=[time,toc]%storing toc into time array
 end
 plot(n,time)
