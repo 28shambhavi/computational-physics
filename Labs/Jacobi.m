@@ -22,4 +22,3 @@ function root = jacobi(a, b, x, n, error)
     disp(x);  
 
 end
-
